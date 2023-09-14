@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_view</class>
+ <widget class="QDialog" name="admin_view">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Admin view</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>721</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Box group</string>
+   </property>
+   <widget class="QPushButton" name="browse_student_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Browse student</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browse_student_by_id_btn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View students by ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browse_student_by_date_btn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View students by date</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browse_student_by_time_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View students by time</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="activate_account_btn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Activate account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suspend_account_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suspend account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reactivate_account_btn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reactivate account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="swipe_out_btn">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>50</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Swipe out</string>
+    </property>
+   </widget>
+   <zorder>browse_student_btn</zorder>
+   <zorder>browse_student_by_id_btn</zorder>
+   <zorder>browse_student_by_time_btn</zorder>
+   <zorder>activate_account_btn</zorder>
+   <zorder>browse_student_by_date_btn</zorder>
+   <zorder>suspend_account_btn</zorder>
+   <zorder>reactivate_account_btn</zorder>
+   <zorder>swipe_out_btn</zorder>
+  </widget>
+  <widget class="QTableWidget" name="table_view">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>741</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Role</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Time in</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Exit time</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
